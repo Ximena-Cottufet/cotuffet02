@@ -1,0 +1,79 @@
+/* Aqui se definen los fondos para cada seccion en las paginas */
+#contenedor1{
+     background-image: url('/../img/Front/Fondos/fonin1.png');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: auto;
+     width: 100%;
+     padding: 80px 50px 90px 50px;
+}
+
+#contenedor2{
+     background-image: url('/../img/Front/Fondos/fonin2.png');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: auto;
+     width: 100%;
+     padding: 30px 50px 30px 50px;
+}
+
+#contenedor3{
+    background-image: url('/../img/Front/Fondos/fonser1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 30px 50px 30px 50px;
+}
+
+#contenedor4{
+     background-color: hsl(0, 0%, 95%);
+     height: 100%;
+     width: 100%;
+     padding: 15px;
+     padding: 30px 50px 30px 50px;
+}
+
+#contenedor5{
+    background-image: url('/../img/Front/Fondos/fonnot1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 100px 50px 80px 50px;
+}
+
+#contenedor6{
+    background-image: url('/../img/Front/Fondos/foncon1.png');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: auto;
+     width: 100%;
+     padding: 10px 50px 10px 50px;
+}
+
+#contenedor7{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 30px 40px 30px 40px;
+}
+
+#contenedor8{
+    width: 100%;
+    padding: 8% 0% 8% 0%;
+    height: auto;
+}

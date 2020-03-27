@@ -1,0 +1,734 @@
+/* Estilos a elemento especificos dentro de las paginas del front */
+
+/* Estilos especificos de la pagina cuerpo */
+.tituloFooter{
+     color: #ffff;
+     padding: 10px;
+     margin: 8% 0% 0% 0%;
+}
+
+.contFoot{
+     font-size: 20px;
+     font-weight: 100;
+     color: white;
+     margin: 9px;
+     padding: 6px;
+}
+
+.contFooGen{
+     margin-left: 20px;
+     margin-right: 0;
+}
+
+.logoFooter{
+     margin-right: 26%;
+}
+
+.iconFoo{
+     width: 13px;
+     vertical-align: inherit;
+}
+
+.linkFoo{
+     font-size: 18px;
+     font-weight: 100;
+     color: white;
+     padding: 6px;
+}
+
+.linkFoo:hover{
+     color: white;
+}
+
+.btn_Ingresar{
+     width: 100%;
+     padding: 0px;;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     font-weight: 100;
+     border-radius: 5px;
+     color: black;
+     margin-top: 6%;
+}
+
+.iconRedesFooter{
+    max-width: 100%;
+    height: auto;
+    width: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.contenedorRedesFoo{
+    margin: 2% 0% 0% 0%;
+}
+
+/* Estilos especificos de la pagina inicio */
+
+.visorInicial3D{
+    height: 480px;
+    width: 700px;
+    position: relative;
+    top: 40px;
+    padding: 2%;
+    border: 3px solid #B4A45F;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(140, 145, 150, 0.6);
+    overflow: hidden;
+    display: inline-block;
+}
+
+.contenedorConf{
+    width: 100%;
+    align-items: left;
+    border-bottom: 2px solid #B4A45F;
+}
+
+.LogoConf{
+    width: 170px;
+    height: 61px;
+    margin-bottom: 2%;
+}
+
+.textConfigurador{
+    text-align: left;
+	font-size: 2.1rem;
+    font-weight: 100;
+}
+
+.MaterialesConfigurador{
+    text-align: center;
+	font-size: 2.1rem;
+    font-weight: 100;
+}
+
+
+.MaterialesConfiguradorDesp{
+	font-size: 1.5rem;
+    font-weight: 100;
+    width: 100%;
+    text-align: right;
+    margin-top: 4%;
+    border-bottom: 2px solid #B4A45F;
+}
+
+.active, .MaterialesConfiguradorDesp:hover {
+
+}
+
+.MaterialesConfiguradorDesp::after{
+    content: '\002B';
+    color: #333;
+    font-weight: bold;
+    float: left;
+
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.contenedorMateriales{
+    padding: 0 18px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.texturasDesp{
+    width: 30px;
+    height: 30px;
+}
+
+.contIconComp{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos especificos de la segunda seccion de la pagina de inicio*/
+
+.PD{
+    font-size: 20px;
+    margin: 1%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.lineaIzq{
+    height: 2px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 30%;
+    background: #B4A45F;
+    box-shadow: 10px 10px 10px rgba(140, 145, 150, 0.6);
+}
+
+.lineaDer{
+    height: 2px;
+    position: absolute;
+    top: 5%;
+    left: 68%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 30%;
+    background: #B4A45F;
+    box-shadow: 10px 10px 10px rgba(140, 145, 150, 0.6);
+}
+
+.contenedorScroll{
+    position: relative;
+    top: 45px;
+    width: 100%;
+    background: none;
+}
+
+div.scrollFlechaIzq{
+    /*max-width: 75px;*/
+    width: 10%;
+    height: 75%;
+    background-image: url('/../img/Front/Flechas/flechaizquierda.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+.scrollFlechaDec{
+    /*max-width: 75px;*/
+    width: 10%;
+    height: 75%;
+    background-image: url('/../img/Front/Flechas/flechaderecha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.scroll{
+    vertical-align: middle;
+    display: inline-block;
+    /*white-space: nowrap;*/
+    overflow-y: scroll;
+    /*overflow-y: hidden;*/
+}
+
+.no-scroll {
+  scrollbar-width: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.tarjeta{
+    width: 100%;
+    padding: 1rem 1.1rem 1.1rem 1.1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    line-height: 170%;
+}
+
+div.tarjeta img {
+    width: 100%;
+    height: 11rem;
+}
+
+div.tarjeta h1 {
+    font-size: 150%;
+    /* padding-bottom: 5%; */
+    position: relative;
+    top: 0rem;
+    /*height: rem;*/
+    font-weight: 100;
+}
+
+.contTextSeccion1{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.contSeccion{
+    font-size: 27px;
+    font-weight: 100;;
+    padding: 2px;
+
+}
+
+.iconSeccion{
+    width: 27px;
+    vertical-align: inherit;
+}
+
+/*Estilos especificos de la pagina productos*/
+
+.wrap{
+	width: 100%;
+	margin: auto;
+}
+
+.wrap > h1{
+	color: #494B4D;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.wrap > h1:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #C7C7C7;
+	margin: 20px 0;
+}
+
+.store-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+    width: 100%;
+}
+
+.category_list{
+	flex-direction: column;
+    width: 18%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    /* height: 100%; */
+    z-index: 1;
+    background-color: rgba(247, 243, 230, 1.1);
+}
+
+.category_list .category_item {
+    display: block;
+    width: 90%;
+    padding: 2px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    border:none;
+}
+
+.category_item_titulo{
+	display: block;
+    width: 90%;
+    padding: 5px 0px 5px 0px;
+    margin-top: 3px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #B4A45F;
+    text-align: left;
+    background-color: rgba(247, 243, 230, 1.1);
+}
+
+.category_item_titulo:after {
+  content: '\002B';
+  color: black;;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active, .category_item_titulo:hover {
+    background-color: rgba(247, 243, 230, 1.1);
+}
+.active:after {
+  content: "\2212";
+}
+.category_item_titulo:focus{
+     border: none;
+}
+
+.category_list .ct_item-active{
+	/*background: #2D3E50;*/
+}
+
+.contenido{
+    padding: 0 18px;
+  /*max-height: 1px;*/
+  overflow: hidden;
+  /*transition: max-height 0.3s ease-out;*/
+  background-color: rgba(247, 243, 230, 1.1);
+}
+
+/* PRODUCTOS ============*/
+
+.products-list{
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 20%;
+}
+
+
+.products-list .product-item{
+	width: 22%;
+	margin-left: 3%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+
+	transition: all .4s;
+}
+
+.products-list .product-item img{
+	width: 100%;
+}
+
+.products-list .product-item a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background-color: rgba(247, 243, 230, 1.1);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tarjeta1{
+   width: 25%;
+   height: 35%;
+   min-height: 340px;
+    padding: 1%;
+    transition: all 0.25s;
+    text-align: center;
+}
+
+div.tarjeta1 img{
+    width: 100%;
+    max-height: 330px;
+    border: 1px solid #B4A45F;
+}
+
+div.tarjeta1 h1 {
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: rgba(247, 243, 230, 1.1);
+    position: relative;
+    top: 1.2rem;
+    padding: 1%;
+    height: 2rem;
+    border: 1px solid #B4A45F;
+}
+
+div.tarjeta1 p{
+     padding: 3px;
+     font-size: 13px;
+     font-weight: 300;
+     color: #B4A45F;
+     white-space: normal;
+}
+
+div.tarjeta1 a{
+     font-weight: 100;
+     text-decoration: none;
+     color: #B4A45F;
+     text-align: center;
+}
+
+
+.estilo2 {
+    font-size: 190%;
+    color: rgb(0, 0, 0);
+    padding-left: 6%;
+}
+
+.estiloAlt2{
+     margin-top: 25%;
+}
+
+.estilo3 {
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    padding-left: 6%;
+}
+
+.btn_IngresarPag{
+     width: 100%;
+     padding: 4%;
+     font-size: 18px;
+     border-radius: 5px;
+     color: black;
+}
+
+
+.siginup{
+     position: relative;
+     top: 30px;
+     left: 15%;
+     width: 100%;
+     padding-top: 30px;
+     padding-bottom: 10px;
+     padding-left: 20px;
+     padding-right: 40px;
+     color:rgb(0, 0, 0);
+}
+
+.siginup h3{
+     font-family: 'Roboto', sans-serif;
+     font-size: 250%;
+}
+
+.siginup label{
+     font-family: 'Roboto', sans-serif;
+     font-size: 150%;
+}
+
+.siginup input{
+     font-family: 'Roboto', sans-serif;
+    background-color: white;
+     border-radius: 1px solid  rgba(247, 243, 230, 1.1);
+}
+
+.siginup textarea{
+     font-family: 'Roboto', sans-serif;
+     background-color: white;
+     border-radius: 1px solid rgba(247, 243, 230, 1.1);
+}
+
+.btnContacto{
+     width: 70%;
+     padding: 0px;
+     font-size: 20px;
+     border-radius: 5px;
+     color: rgb(0, 0, 0);
+     box-shadow: 3px 3px 3px rgba(140, 145, 150, 0.6);
+}
+
+.textoSer0{
+     font-size: 360%;
+     padding-top: 18px;
+     color: rgb(0, 0, 0);
+}
+
+.textoSer1{
+     font-size: 154%;
+     padding-top: 2px;
+     color: rgb(0, 0, 0);
+}
+
+.textNot0 {
+    font-size: 250%;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.textNot1{
+     font-size: 200%;
+     margin-top: 10%;
+     color: rgb(0, 0, 0);
+}
+
+.textNot2{
+     font-size: 140%;
+     padding-top: 0px;
+     color: rgb(0, 0, 0);
+}
+
+.contTextSeccion02{
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+
+.contSeccion04{
+    font-size: 1rem;
+}
+
+.iconSeccion02{
+    width: 16px;
+    vertical-align: inherit;
+}
+
+.minav{
+    padding: 10px 28px 10px 28px;
+}
+
+.visor3DProductEsp{
+    right: -17%;
+}
+
+.tab{
+    align-items: center;
+}
+
+.tablink{
+    background-color: #F5F5F5;
+    color: black;
+    display: block-inline;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 150%;
+    width: 20%;
+    font-weight: 100;
+}
+
+.tablink:hover {
+  background-color: #404040;
+  color: white;
+}
+
+.tablink::active{
+    background-color: rgb(128,128,128);
+  color: white;
+}
+
+.tabcontent {
+ font-size: 100%;
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: left;
+  background-color:#404040;
+  }
+
+.tabcontent h1{
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.tabcontent p{
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.imgTam0{
+    position: relative;
+    right: 28%;
+}
+
+/* Estilos del menu lateral izquierdo */
+.icon-facebook{
+    float: left;
+    color: #000;
+}
+.img-icon{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.social{
+    position: fixed;
+    left: -250px;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    display: inline-block;
+    font-size: 115%;
+}
+.social ul li a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.social ul li{
+    color: #333;
+    background-color: rgba(247, 243, 230, 1.1);
+    border: 1px solid #BCB07D;
+    padding: 10px;
+    width: 280px;
+    height: 55px;
+    margin: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    -webkit-transition:     all 500ms ease;
+    -moz-transition:    all 500ms ease-in-out;
+    -o-transition:     all 500ms ease;
+    transition:   all 500ms ease;
+}
+.social ul li:hover{
+    margin-left: 210px;
+    color: #333;
+    background-color: rgba(247, 243, 230, 1.1);
+    border: 1px solid #BCB07D;
+}
+.contenedor02{
+    position: relative;
+    left: 50px;
+    top: -150px;
+}
+
+.contProSim{
+   display: inline;
+   padding-right: 5px;
+}
+
+.contProSim li{
+}
+
+.contProSim ul{
+     list-style-type: none;
+     display: inline;
+}
+
+.tarjeta2{
+   width: 17%;
+   height: 35%;
+   min-height: 340px;
+    padding: 1%;
+    transition: all 0.25s;
+    text-align: center;
+    display: inline-block;
+}
+
+div.tarjeta2 img{
+    width: 100%;
+    max-height: 330px;
+    border: 1px solid #B4A45F;
+}
+
+div.tarjeta2 h1 {
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: rgba(247, 243, 230, 1.1);
+    position: relative;
+    top: 1.2rem;
+    padding: 1%;
+    height: 2rem;
+    border: 1px solid #B4A45F;
+}
+
+div.tarjeta2 p{
+     padding: 3px;
+     font-size: 13px;
+     font-weight: 300;
+     color: #B4A45F;
+     white-space: normal;
+}
+
+div.tarjeta2 a{
+     font-weight: 100;
+     text-decoration: none;
+     color: #B4A45F;
+     text-align: center;
+}
+
+.planos{
+    padding: 1%;
+    display: inline-block;
+}
